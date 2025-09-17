@@ -54,19 +54,31 @@ async function helpCommand(sock, chatId, message) {
 ║ ➤ .tagall
 ║ ➤ .chatbot
 ║ ➤ .resetlink
+║ ➤ .antitag <on/off>
 ║ ➤ .welcome <on/off>
 ║ ➤ .goodbye <on/off>
+║ ➤ .setgdesc <description>
+║ ➤ .setgname <new name>
+║ ➤ .setgpp (reply to image)
 ╚═══════════════════╝
 
 ╔═══════════════════╗
 🔒 *Owner Commands*:
-║ ➤ .mode
-║ ➤ .autostatus
+║ ➤ .mode <public/private>
 ║ ➤ .clearsession
 ║ ➤ .antidelete
 ║ ➤ .cleartmp
+║ ➤ .update
+║ ➤ .settings
 ║ ➤ .setpp <reply to image>
-║ ➤ .autoreact
+║ ➤ .autoreact <on/off>
+║ ➤ .autostatus <on/off>
+║ ➤ .autostatus react <on/off>
+║ ➤ .autotyping <on/off>
+║ ➤ .autoread <on/off>
+║ ➤ .anticall <on/off>
+║ ➤ .pmblocker <on/off/status>
+║ ➤ .pmblocker setmsg <text>
 ╚═══════════════════╝
 
 ╔═══════════════════╗
@@ -74,11 +86,26 @@ async function helpCommand(sock, chatId, message) {
 ║ ➤ .blur <image>
 ║ ➤ .simage <reply to sticker>
 ║ ➤ .sticker <reply to image>
+║ ➤ .removebg
+║ ➤ .remini
+║ ➤ .crop <reply to image>
 ║ ➤ .tgsticker <Link>
 ║ ➤ .meme
 ║ ➤ .take <packname> 
 ║ ➤ .emojimix <emj1>+<emj2>
+║ ➤ .igs <insta link>
+║ ➤ .igsc <insta link>
 ╚═══════════════════╝  
+
+╔═══════════════════╗
+🖼️ *Pies Commands*:
+║ ➤ .pies <country>
+║ ➤ .china 
+║ ➤ .indonesia 
+║ ➤ .japan 
+║ ➤ .korea 
+║ ➤ .hijab
+╚═══════════════════╝
 
 ╔═══════════════════╗
 🎮 *Game Commands*:
@@ -145,6 +172,41 @@ async function helpCommand(sock, chatId, message) {
 ║ ➤ .tiktok <link>
 ║ ➤ .video <song name>
 ║ ➤ .ytmp4 <Link>
+╚═══════════════════╝
+
+╔═══════════════════╗
+🧩 *MISC*:
+║ ➤ .heart
+║ ➤ .horny
+║ ➤ .circle
+║ ➤ .lgbt
+║ ➤ .lolice
+║ ➤ .its-so-stupid
+║ ➤ .namecard 
+║ ➤ .oogway
+║ ➤ .tweet
+║ ➤ .ytcomment 
+║ ➤ .comrade 
+║ ➤ .gay 
+║ ➤ .glass 
+║ ➤ .jail 
+║ ➤ .passed 
+║ ➤ .triggered
+╚═══════════════════╝
+
+╔═══════════════════╗
+🖼️ *ANIME*:
+║ ➤ .neko
+║ ➤ .waifu
+║ ➤ .loli
+║ ➤ .nom 
+║ ➤ .poke 
+║ ➤ .cry 
+║ ➤ .kiss 
+║ ➤ .pat 
+║ ➤ .hug 
+║ ➤ .wink 
+║ ➤ .facepalm 
 ╚═══════════════════╝
 
 ╔═══════════════════╗
